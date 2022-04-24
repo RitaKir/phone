@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int score =100;
-        int depositAccount =1100;
+        int score = 100;
+        int depositAccount = 1100;
         int bonus;
         if (depositAccount > 1000) {
             bonus = depositAccount / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int balance = score + depositAccount + bonus;
